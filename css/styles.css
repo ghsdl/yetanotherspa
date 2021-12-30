@@ -25,7 +25,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
   padding: 1rem 3rem 1rem 3rem;
-  background-color: #1d3557;
+  background-color: black;
 }
 
 header > ul {
@@ -38,7 +38,7 @@ header > ul > li {
   padding: 1rem;
 }
 
-.container {
+.mainContainer {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -100,6 +100,30 @@ header > ul > li {
 
 /* img container */
 
-.img-container {
+.pageContainer {
   flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/puzzles.jpg) no-repeat center center/cover;
+}
+
+.content {
+  max-width: 850px;
+  text-align: center;
+}
+
+.content > h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.content > p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: white;
 }

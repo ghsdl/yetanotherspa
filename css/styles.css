@@ -23,9 +23,9 @@ ul {
   list-style: none;
 }
 
-em {
+span {
   font-style: italic;
-  color: #0c676c;
+  color: #ccc;
 }
 
 .container {
@@ -264,3 +264,59 @@ header > ul > li {
   margin-bottom: 0.4rem;
 }
 
+/* contact */
+
+.contact {
+  padding: 5rem 1rem 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form > input {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #0c676c;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  background: white;
+}
+
+.form button {
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: #0c676c;
+  color: white;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.form button:hover {
+  color: #0c676c;
+  background: white;
+}
+
+/* footer */
+
+footer {
+  padding: 2rem 1rem 2rem 1rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+}

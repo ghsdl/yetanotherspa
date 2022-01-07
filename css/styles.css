@@ -312,3 +312,12 @@ footer {
   color: black;
   text-align: center;
 }
+
+footer > p:nth-last-child(1) {
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+footer > p > a {
+  color: black;
+}

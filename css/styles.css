@@ -52,8 +52,6 @@ header {
 
 header > ul {
   display: flex;
-  flex-flow: row nowrap;
-  list-style: none;
 }
 
 header > ul > li {
@@ -180,33 +178,26 @@ header > ul > li {
   padding: 2rem 2rem 2rem 2rem;
 }
 
-.puzzle-text > p {
-  text-align: center;
-  padding: 0.6rem 0.6rem;
-}
-
 .price {
   font-size: 1rem;
   font-weight: 900;
   color: #0c676c;
 }
 
-/* team */
+/* values */
 
-.team {
+.values {
   display: flex;
   flex-flow: row nowrap;
+  min-height: 600px;
 }
 
-.team-img {
+.values-img {
   flex: 1;
+  background: url('../img/values.jpg') center center/cover;
 }
 
-.team-img img {
-  width: 100%;
-}
-
-.team-text {
+.values-text {
   flex: 1;
   padding: 3rem 3rem 3rem 3rem;
   display: flex;
@@ -216,7 +207,7 @@ header > ul > li {
   color: white;
 }
 
-.team-text > p {
+.values-text > p {
   font-size: 1.2rem;
   line-height: 1.8rem;
 }

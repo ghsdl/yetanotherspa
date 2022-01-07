@@ -1,0 +1,102 @@
+.title {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* header */
+
+header {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* img container */
+
+.content > h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 0.8rem;
+  padding: 1.2rem;
+}
+
+.content > p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: white;
+}
+
+/* puzzle */
+
+.puzzle {
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.puzzle-list {
+  flex-direction: column;
+}
+
+.puzzle-img {
+  height: 70%;
+}
+
+/* values */
+
+.values {
+  flex-direction: column-reverse;
+}
+
+.values-img {
+  min-height: 200px;
+}
+
+.values-text {
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.values-text > p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+/* testimonials */
+
+.testimonials {
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.testimonials-element {
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials-element:nth-child(odd) {
+  flex-direction: column-reverse;
+}
+
+.testimonials-text {
+  margin: 1rem;
+}
+
+.testimonials-img img {
+  margin: auto auto auto auto;
+}
+
+/* contact */
+
+.contact {
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.form > input {
+  font-size: 1rem;
+}
+
+.form button {
+  font-size: 1rem;
+}
